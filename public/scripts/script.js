@@ -27,7 +27,7 @@ var postInputs = function(thing) {
     }
   });
 }; // end postMaxNum
-
+//send maximum number input
 $(document).ready(function(){
   console.log('JQ');
   //event listeners
@@ -37,6 +37,8 @@ $(document).ready(function(){
     console.log(maxNum);
     postMaxNum(maxNum);
   }); // end #startButtonnp
+
+  //send inputs
   $('#submit').on('click', function(){
     console.log('submit clicked');
     var inputs = {
